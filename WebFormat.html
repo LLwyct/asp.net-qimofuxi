@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style media="screen">
+            table {
+                width: 100%;
+                border: 1px solid;
+            }
+            #webtitle {
+                text-align: center;
+            }
+            #webfooter {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td colspan="3" id="webtitle">网站标题</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">导航栏</td>
+                    <td>内容栏1</td>
+                    <td>内容栏2</td>
+                </tr>
+                <tr>
+                    <td>内容栏3</td>
+                    <td>内容栏4</td>
+                </tr>
+                <tr>
+                    <td colspan="3"  id="webfooter">网站页脚</td>
+                </tr>
+            </tbody>
+        </table>
+        <script type="text/javascript">
+            var ans = confirm("确认要查看吗")
+            console.log(ans);
+        </script>
+    </body>
+</html>
